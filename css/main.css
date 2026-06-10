@@ -1613,6 +1613,12 @@ input::-moz-focus-inner {
   fill: var(--primary-color);
 }
 
+.hero-social svg {
+    width: clamp(24px, 4vw, 48px);
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
 .hero-social li {
   padding-left: 0;
 }
