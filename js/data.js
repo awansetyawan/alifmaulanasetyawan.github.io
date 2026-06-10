@@ -86,5 +86,61 @@ const data = {
             issuer: "Sololearn",
             imgLink: "images/sertifikat/py2.png",
         },
+    ],
+
+    youtubeVideosNetwork: [
+        {
+            title: "Konfigurasi Bandwidth Queue dan Bandwith User Hotspot",
+            videoId: "1Ex1e8Twftg",
+            techStack: "MikroTik RouterOS • Winbox"
+        },
+        {
+            title: "Tutorial Blocking Content dan Redirect",
+            videoId: "yFiP3KkzxOg",
+            techStack: "MikroTik RouterOS • Winbox"
+        },
+        {
+            title: "Konfigurasi DHCP Server & Client Debian 10",
+            videoId: "yLSYtpoWNlo?si",
+            techStack: "VMware • Debian 10 • WordPress"
+        },
+        {
+            title: "Konfigurasi DHCP, 3 DNS, & 3 Web Server dengan 1 IP",
+            videoId: "yLSYtpoWNlo?si",
+            techStack: "VMware • Debian 8"
+        },
+    ],
+
+    youtubeVideosIot: [
+        {
+            title: "Project Penerapan RFID",
+            videoId: "aw4MDsCOAz8",
+            techStack: "Arduino • RFID"
+        },
+        {
+            title: "Monitoring Suhu dan Kelembaban pada Sensor DHT22 dengan Thingspeak",
+            videoId: "mhtP_sUvDFk",
+            techStack: "ESP8266 • DHT22 • Thingspeak"
+        },
+        {
+            title: "Project DHT22 dengan LED",
+            videoId: "UaD9EU92ZYY",
+            techStack: "ESP8266 • DHT22"
+        },
+        {
+            title: "Project Mengontrol LED Dengan Aplikasi Blynk",
+            videoId: "l0fh4e14eAA",
+            techStack: "ESP8266 • Blynk"
+        },
+        {
+            title: "Project Detector Suhu Dengan Aplikasi Blynk",
+            videoId: "RDGrBplSAvQ",
+            techStack: "ESP8266 • DHT22 • Blynk"
+        },
+        {
+            title: "Project Ultrasonic Nodemcu With Blynk",
+            videoId: "q-5IsSbuz64",
+            techStack: "ESP8266 • Ultrasonic • Blynk"
+        },
     ]
 }

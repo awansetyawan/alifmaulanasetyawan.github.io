@@ -1074,9 +1074,9 @@ input::-moz-focus-inner {
     font-size: 1.3rem;
   }
 
-  .display-1 {
+  /* .display-1 {
     font-size: 3.2rem;
-  }
+  } */
 
   .section-intro::before {
     font-size: 22rem;
@@ -1090,13 +1090,13 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:500px) {
-  .display-1 {
+  /* .display-1 {
     font-size: 2.5rem;
-  }
+  } */
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:400px) {  
   .section-intro {
     margin-bottom: 9.6rem;
   }
@@ -1108,14 +1108,19 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:360px) {
-  .display-1 {
+  /* .display-1 {
     font-size: 1.5rem;
-  }
+  } */
 
   .section-intro::before {
     font-size: 18rem;
   }
 
+}
+
+.display-1 {
+  font-size: clamp(1.5rem, 5vw, 3.2rem);
+  line-height: 1.2;
 }
 
 
@@ -2170,6 +2175,16 @@ html.no-csstransitions .hero-content {
 .folio-item__thumb img {
   vertical-align: bottom;
 }
+
+/* baru */
+.folio-item__thumb {
+  position: relative;
+}
+
+.folio-item__thumb::before {
+  pointer-events: none;
+}
+
 
 /* portfolio info
  *---------------------------------------------- */
