@@ -113,6 +113,21 @@ const data = {
 
     youtubeVideosIot: [
         {
+            title: "Project Robotic Arduino (Mobil)",
+            videoId: "7ZMX8BNtbxM",
+            techStack: "Arduino • L298N • Ultrasonic"
+        },
+        {
+            title: "Project Smart Trash (Tempat Sampah Otomatis) Arduino",
+            videoId: "hAMsoC-lm9Y",
+            techStack: "Arduino • Ultrasonic • Servo Motor"
+        },
+        {
+            title: "Project Smart Sanitizer (Arduino Uno)",
+            videoId: "YaGcb1KI-Z8",
+            techStack: "Arduino • Ultrasonic • Servo Motor"
+        },
+        {
             title: "Project Penerapan RFID",
             videoId: "aw4MDsCOAz8",
             techStack: "Arduino • RFID"
@@ -141,6 +156,11 @@ const data = {
             title: "Project Ultrasonic Nodemcu With Blynk",
             videoId: "q-5IsSbuz64",
             techStack: "ESP8266 • Ultrasonic • Blynk"
+        },
+        {
+            title: "Project Bluetooth Via Suara",
+            videoId: "JKgjBtYXxaA",
+            techStack: "Arduino • Bluetooth"
         },
     ]
 }
