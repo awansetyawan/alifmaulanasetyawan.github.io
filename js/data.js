@@ -101,12 +101,12 @@ const data = {
         },
         {
             title: "Konfigurasi DHCP Server & Client Debian 10",
-            videoId: "yLSYtpoWNlo?si",
+            videoId: "SpRjPxp3fxc",
             techStack: "VMware • Debian 10 • WordPress"
         },
         {
             title: "Konfigurasi DHCP, 3 DNS, & 3 Web Server dengan 1 IP",
-            videoId: "yLSYtpoWNlo?si",
+            videoId: "yLSYtpoWNlo",
             techStack: "VMware • Debian 8"
         },
     ],
